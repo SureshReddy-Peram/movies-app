@@ -1,0 +1,40 @@
+.card{
+    width: 18rem;
+    background-color: var(--background-color);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.8);
+    border-radius: 5px;
+}
+
+.card-img-top{
+    width:100%;
+    height:20rem;  
+}
+
+.card-img{
+   width: 100%;
+   height: 100%;   
+   object-fit:contain;
+   /* object-fit:fill; */
+   position: center;
+}
+
+.card-body{
+    color: var(--primary-text-color);
+    padding: 1rem;
+}
+
+.card-title{
+    font-size: 1.25rem;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+

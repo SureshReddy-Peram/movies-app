@@ -1,4 +1,46 @@
-.App {
+
+/* Reset CSS */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --background-color: #fef3c7;
+  --primary-text-color: #7c2d12;
+  --card-bg-color:#4ade80;
+}
+
+body{
+  background-color: var(--background-color);
+  overflow-x: hidden;
+}
+
+.main{
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  padding: 2rem 2rem;  
+}
+.header{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin-bottom: 5px;
+  width: 100vw;
+  z-index: 1;
+  background-color: #84c39b;
+}
+
+.heading-1{
+  color: var(--primary-text-color);
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +77,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
